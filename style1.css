@@ -1,0 +1,142 @@
+
+    p{
+      margin: 0;
+      font-size: 15px;
+    }
+    h2{
+      margin: 0;
+      
+    }
+    
+    h3{
+      margin: 0px;
+    }
+    /*  */
+    #main{
+      height: 800px;
+      width: 1000px;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    /* Div de las cartas */
+    #carta{
+      background-color: rgb(200,200,200);
+      height: 200px;
+      width: 200px;
+      margin-left: 20px;
+      margin-top: 20px;      
+      border-radius: 20px;  
+    }
+    #buton{
+      background-color: rgb(200,200,200);
+      height: 200px;
+      width: 200px;
+      border-radius: 20px; 
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      border-width: 3px;
+      margin-top:20px;
+      margin-left:20px;
+    }
+    #buton h1{
+      font-size: 30px; 
+      margin: 0px;      
+    }
+    #divLoad h1{
+       justify-self: center;
+      align-self: center;
+    }
+    
+    #titCont{
+      width : 100%;
+      height: 20%;
+      text-align: center;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: whitesmoke ;
+      margin-top: 0px;
+    }
+    #contStats{
+      height: 100%;
+      height: 80%; 
+      display: flex;
+    }
+    #columIzq{
+      width: 33%;
+      height: 100%;
+      
+      text-align: center;
+    }
+    #PrimerStat{
+      width:100%;
+      height: 50%;
+      text-align: center; 
+      bottom: 0px;     
+    }
+    
+    #PrimerStat p{
+      
+      margin-bottom: 10px;
+    }
+    #SegundaStat{
+      width:100%;
+      height: 50%;
+      text-align: center;
+
+    }
+    
+    #columMit{
+      width:33%;
+      height: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      
+      
+    }
+    #columMit img {
+      width: 50px;
+      height: 50px;      
+    }
+    #columDer{
+      width: 33%;
+      height: 100%;
+      
+      text-align: center;
+    }
+
+    #contenedor{
+      
+      background-color:rgb(200,200,200) ;
+      height: 200px;
+      width: 200px;
+      margin-left: 20px;
+      margin-top: 20px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      border-radius: 20px;
+      -webkit-transition:all 1s ease ;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+      z-index: 10000;
+    }
+    #carga{
+      border: 10px solid #ccc;
+      border-top-color: black;
+      border-top-style: groove;
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+      -webkit-animation: girar 1.5s linear infinite;
+      -o-animation: girar 1.5s linear infinite;
+      animation: girar 1.5s linear infinite;
+    }
+    @keyframes girar {
+      from{ transform: rotate(0deg);}
+      to{transform: rotate(360deg);}
+    }
