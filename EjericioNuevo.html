@@ -93,7 +93,7 @@
         //muestra los valores en formatos legibles.
         this.resumirVal(); 
         //div de la carta.        
-        var carta = document.createElement("div"); carta.setAttribute("id", "carta");  
+        var carta = document.createElement("div"); carta.setAttribute("class", "carta");  
         //Contiene el titulo
         var titCont= document.createElement("div"); titCont.setAttribute("id","titCont");
         var titulo = document.createElement("h2"); titulo.textContent = this.name;
@@ -129,12 +129,12 @@
         //Div Columna 
         var Columna= document.createElement("div"); 
           // Primera Stat
-        var PrimerStat= document.createElement("div"); PrimerStat.setAttribute("id", "PrimerStat");
+        var PrimerStat= document.createElement("div"); PrimerStat.setAttribute("class", "PrimerStat");
         PrimerStat.textContent = nombre1;
         var PrimerStatD = document.createElement("h3"); PrimerStatD.textContent = dato1;
         PrimerStat.appendChild(PrimerStatD);
           // Segunda Stat
-        var SegundaStat= document.createElement("div"); SegundaStat.setAttribute("id", "SegundaStat");
+        var SegundaStat= document.createElement("div"); SegundaStat.setAttribute("class", "SegundaStat");
         
         var SegundaStatD = document.createElement("h3"); SegundaStatD.textContent = dato2;
         SegundaStat.appendChild(SegundaStatD);
